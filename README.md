@@ -6,7 +6,7 @@
 На борту данного микроконтроллера находится АЦП с разрешением 10 бит, которых будет достаточно для оцифровки сигналов. Для визуального отображения информации 
 воспользуемся LCD дисплеем 1602, подключенным посредством шины I2C.
 
-![scheme_struct](https://github.com/niksuf/ArduinoFFT/blob/master/structural_scheme.png)
+![scheme_struct](https://github.com/niksuf/ArduinoFFT/blob/master/img/structural_scheme.png)
 
 Так как с ПК посредством jack-кабеля 3.5 мм приходит слишком слабый сигнал, поставим резистивный делитель. Для того, чтобы избавиться от постоянной составляющей сигнала 
 поставим конденсатор емкостью 10 нФ.
@@ -22,7 +22,7 @@
 
 Более подробная схема для сборки стенда:
 
-![scheme_connection](https://github.com/niksuf/ArduinoFFT/blob/master/connection_scheme.png)
+![scheme_connection](https://github.com/niksuf/ArduinoFFT/blob/master/img/connection_scheme.png)
 
 ## Скорость работы алгоритма
 
